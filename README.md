@@ -1,2 +1,25 @@
 # learn-in-public
-Projects and tutorials I learn from
+A compilation of resources I have watched/read/learned through that has helped expand my knowledge.
+
+
+## TypeScript
+- [Understanding TypeScript](https://www.udemy.com/course/understanding-typescript/) [**Done**]
+- General Notes
+
+
+## Angular
+- [Angular - The Complete Guide (2023 Edition)](https://www.udemy.com/course/the-complete-guide-to-angular-2/) [**In Progress - 50%**]
+  - Notes
+
+
+## Algorithms
+- Grokking Algorithms [**90%**]
+  - Notes
+
+
+## Java
+- Java Programming I & II Mooc. [**Done**]
+  - Notes  
+
+
+## Videos
