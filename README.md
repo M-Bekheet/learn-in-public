@@ -5,7 +5,7 @@ A compilation of resources I have watched/read/learned through that has helped e
 ## TypeScript
 
 - [Understanding TypeScript](https://www.udemy.com/course/understanding-typescript/) [**Done**]
-- [General Notes](/typescript/ß)
+- [General Notes](/typescript)
 
 ## Angular
 
@@ -15,7 +15,7 @@ A compilation of resources I have watched/read/learned through that has helped e
 ## Algorithms
 
 - Grokking Algorithms [**90%**]
-  - [Notes](/algorithms/)
+  - [Notes](/algorithms/grokking-algorithms)
 
 ## Java
 
