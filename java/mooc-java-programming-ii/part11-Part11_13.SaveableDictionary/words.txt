@@ -1,0 +1,3 @@
+tieokone:computer
+apina:monkey
+olut:beer
