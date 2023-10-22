@@ -9,23 +9,14 @@ export class RecipeService {
   recipeChanged = new Subject<Recipe[]>();
   constructor(private shoppingListService: ShoppingListService) {}
 
-  private recipes: Recipe[] = [
-    new Recipe(
-      'A Test Recipe',
-      'This is simply a test',
-      'https://www.cookipedia.co.uk/wiki/images/c/c6/Jajka_Zapiekane_z_Jarzyna_Baked_eggs_with_vegetables_recipe.jpg',
-      [new Ingredient('Meat', 1), new Ingredient('French Fries', 20)]
-    ),
-    new Recipe(
-      'Tomatoes',
-      'Youtube it',
-      'https://www.cookipedia.co.uk/wiki/images/c/c6/Jajka_Zapiekane_z_Jarzyna_Baked_eggs_with_vegetables_recipe.jpg',
-      [new Ingredient('Buns', 2), new Ingredient('Meat', 1)]
-    ),
-  ];
+  private recipes: Recipe[] = [];
 
   ngOnInit() {}
 
+  setRecipes(recipes: Recipe[]) {
+    this.recipes = recipes;
+    this.recipeChanged.next(this.recipes.slice());
+  }
   getRecipes() {
     return this.recipes.slice();
   }
