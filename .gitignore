@@ -9,7 +9,7 @@ playground.js
 /bazel-out
 
 # Node
-/node_modules
+.angular
 npm-debug.log
 yarn-error.log
 
@@ -24,7 +24,8 @@ yarn-error.log
 
 
 # Miscellaneous
-/.angular/cache
+/.angular/**
+**/node_modules
 .sass-cache/
 /connect.lock
 /coverage
