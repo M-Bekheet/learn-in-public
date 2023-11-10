@@ -13,8 +13,9 @@ A compilation of resources I have watched/read/learned through that has helped e
 
 ## Angular
 
-- [Angular - The Complete Guide (2023 Edition)](https://www.udemy.com/course/the-complete-guide-to-angular-2/) [**In Progress - 50%**]
+- [Angular - The Complete Guide (2023 Edition)](https://www.udemy.com/course/the-complete-guide-to-angular-2/) [**Done**]
   - [Notes](/angular)
+  - I finished 80% of the course and there's no need to study the rest as there are more tools (RxJS & Angular Universal) that I already know some about and don't need for now.
 
 ## Algorithms
 
