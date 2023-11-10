@@ -1,0 +1,17 @@
+{
+  "name": "learning-patterns-book",
+  "version": "1.0.0",
+  "description": "- Free online book about modern design patterns in JavaScript and commonly used libraries/frameworks such as React & Vue JS. - The app focuses on the practical usage of patterns and modern development techniques to build robust, performant, and maintainable apps. - The book focuses on the commonly used design, rendering, and performance patterns.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn index.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2"
+  }
+}

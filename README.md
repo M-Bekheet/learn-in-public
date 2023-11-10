@@ -27,6 +27,11 @@ A compilation of resources I have watched/read/learned through that has helped e
 - Java Programming I & II Mooc. [**Done**]
   - [Notes](/java/)
 
+## Design Patterns
+
+- [Learning Design Patterns Book](https://www.patterns.dev/) [**In Progress**]
+  - [Notes](/design-patterns/learning-patterns-book)
+
 ## Videos
 
 - <i>To be Added</i>
