@@ -119,12 +119,8 @@ const deleteProduct = async (formData) => {
 
 const authenticate = async (prevState, formData) => {
   const { username, password } = Object.fromEntries(formData);
-  try {
-    await signIn("credentials", { username, password });
-  } catch (error) {
-    console.error(error);
-    return "Wrong Credentials";
-  }
+  //!NOTE: This shouldn't be wrapped by a try catch as the redirect won't work if the errors are caught
+  return await signIn("credentials", { username, password });
 };
 
 const logout = async () => {

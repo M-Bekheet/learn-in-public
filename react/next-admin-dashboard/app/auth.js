@@ -11,25 +11,20 @@ const login = async (credentials) => {
     if (!credentials?.username || credentials?.username?.length < 3)
       throw new Error("Wrong Username");
     const user = await User.findOne({ username: credentials.username });
-    if (!user) throw new Error("Wrong credentials!");
+
+    if (!user || !user.isAdmin) throw new Error("Wrong credentials!");
 
     const isPasswordCorrect = await bcrypt.compare(
       credentials.password,
       user.password
     );
-    console.log("#######");
-    console.log({
-      isPasswordCorrect,
-      pass: credentials.password,
-      user,
-    });
 
-    if (!isPasswordCorrect) throw new Error("Wrong password!");
+    if (!isPasswordCorrect) throw new Error("Wrong credentials!");
+
     return user;
   } catch (error) {
-    console.log("$$$$$$");
     console.error(error);
-    throw new Error("Failed to login");
+    return null;
   }
 };
 
@@ -59,9 +54,9 @@ export const { signIn, signOut, auth } = NextAuth({
     async session({ session, token }) {
       if (token) {
         session.user.username = token.username;
-        session.user.isAdmin = token.isAdmin;
         session.user.img = token.img;
       }
+      return session;
     },
   },
 });
