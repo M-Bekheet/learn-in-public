@@ -15,7 +15,8 @@ A compilation of resources I have watched/read/learned through that has helped e
   - [Demo](https://nextjs-docs-dashboard-rosy.vercel.app/)
 - [Next.js 14 Admin Dashboard Tutorial | Fullstack Next.js 14 Project with Server Actions](https://www.youtube.com/watch?v=cBg6xA5C60s) [**Done**]
   - [Notes](/react/next-admin-dashboard)
-  - [Demo](https://nextjs-admin-dashboard-six.vercel.app/) - username/password: lartwel2 - [Example](https://nextjs-docs-dashboard-rosy.vercel.app)
+  - [Demo](https://nextjs-admin-dashboard-six.vercel.app/) - username/password: lartwel2
+  - [Example](https://nextjs-docs-dashboard-rosy.vercel.app)
 
 ## Angular
 
@@ -38,6 +39,3 @@ A compilation of resources I have watched/read/learned through that has helped e
 - [Learning Design Patterns Book](https://www.patterns.dev/) [**In Progress**]
   - [Notes](/design-patterns/learning-patterns-book)
 
-## Videos
-
-- <i>To be Added</i>
