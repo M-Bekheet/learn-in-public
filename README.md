@@ -10,6 +10,11 @@ A compilation of resources I have watched/read/learned through that has helped e
 ## React.js
 
 - [The Complete React Developer Course](https://www.udemy.com/course/react-2nd-edition/) [**Done**]
+- [Learn Next.js 14 - Formal Docs Course](https://www.youtube.com/watch?v=cBg6xA5C60s)[**Done**]
+  - [Notes](/react/next-admin-dashboard)
+  - [Example](https://nextjs-docs-dashboard-rosy.vercel.app)
+- [Learn Next.js 14 - Formal Docs Course](https://nextjs.org/learn) [**Done**]
+  - [Notes](/react/next-docs-dashboard)
 
 ## Angular
 
