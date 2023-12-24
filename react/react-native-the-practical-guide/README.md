@@ -17,10 +17,21 @@ Topics learned while building the app:
 
 This app shows categorized meals, ingredients, and how to make them.
 
-Stack: React Native,React Navigation / Context API / Redux RTK, and Expo
+Stack: React Native,React Navigation / Context API / Redux RTK, and Expo.
 
 Topics learned while building this app:
 
 - Building multi-routes & nested-routes screens through React Navigation.
-- Using Expo Icons library
+- Using Expo Icons library.
 - Building shared favorite meals store through the context API & RTK.
+
+## [Expenses Tracking App](/react/react-native-the-practical-guide/expenses-tracker/)
+
+Expenses tracker app that stores your expenses on a host
+
+New Topics learned while building this app:
+
+- Integration with Firebase.
+- Form Validation.
+- Loading Fallback.
+- Expo Environment Variables Usage.
