@@ -20,7 +20,6 @@ export default function GameOverScreen({
   let imageSize = 300;
   if (width < 380) imageSize = 150;
   if (height < 450) imageSize = 80;
-  console.log({ width, height, imageSize });
   return (
     <ScrollView style={styles.screen}>
       <View style={styles.rootContainer}>

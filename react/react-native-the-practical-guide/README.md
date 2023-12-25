@@ -35,3 +35,12 @@ New Topics learned while building this app:
 - Form Validation.
 - Loading Fallback.
 - Expo Environment Variables Usage.
+
+## [Authentication App](/react/react-native-the-practical-guide/auth-app/)
+
+React Native Mobile App that handles authentication through Firebase.
+
+New Topics learned while building this app:
+
+- Authentication management in RN.
+- Authentication with Firebase.
