@@ -44,3 +44,14 @@ New Topics learned while building this app:
 
 - Authentication management in RN.
 - Authentication with Firebase.
+
+## [Native Features App](/react/react-native-the-practical-guide/native-features/)
+
+Places Management app that manages places by saving them to mobile storage and pick images of them.
+
+New Topics learned while building this app:
+
+- Camera & Location Usage.
+- Presentation of Maps and Images.
+- Store to local database with SQLite.
+- Usage of Google Maps Static API.

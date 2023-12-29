@@ -17,8 +17,8 @@ A compilation of resources I have watched/read/learned through that has helped e
   - [Notes](/react/next-admin-dashboard)
   - [Demo](https://nextjs-admin-dashboard-six.vercel.app/) - username/password: lartwel2
   - [Example](https://nextjs-docs-dashboard-rosy.vercel.app)
-- [React Native - The Practical Guide 2023](https://www.udemy.com/course/react-native-the-practical-guide/) [60%]
-  - [Notes](/react/react-native-the-practical-guide/)
+- [React Native - The Practical Guide 2023](https://www.udemy.com/course/react-native-the-practical-guide/) [90%]
+  - [Notes - React Native Mobile Applications](/react/react-native-the-practical-guide/)
 
 ## Angular
 
