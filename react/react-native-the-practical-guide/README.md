@@ -1,5 +1,7 @@
 # React Native - Apps
 
+_Note_: To build APK files of your project, follow this [article](https://instamobile.io/android-development/generate-react-native-release-build-android/). Also, set `enableProguardInReleaseBuilds` to `true` in `/android/app/build.gradle` as it decreases the build size.
+
 ## [Guess Number Game](/react/react-native-the-practical-guide/guess-number-mobile-app/)
 
 The idea is pretty simple. You enter a number from 1 to 100 and the app will start guessing it based on your hints.
