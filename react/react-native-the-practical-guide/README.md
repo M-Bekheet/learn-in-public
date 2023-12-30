@@ -55,3 +55,29 @@ New Topics learned while building this app:
 - Presentation of Maps and Images.
 - Store to local database with SQLite.
 - Usage of Google Maps Static API.
+
+## [Bare React Native Apps](/react/react-native-the-practical-guide/bare-react-app/)
+
+## [Bare Expo App](/react/react-native-the-practical-guide/bare-expo-app)
+
+These are 2 apps that are built in React Native Workflow directly or by Expo bare workflow.
+Building such apps without expo is somehow a cumbersome, but this gives you more control on your application.
+
+I faced issues while building and running them for Android. Here how I fixed them:
+
+- Changed my JDK and Java Version. I degraded the version from 20 to JDK Temurin-17.0.7 and installed gradle.
+
+  ```
+  Gradle 8.5
+  Kotlin: 1.9.20
+  Groovy: 3.0.17
+  Ant: Apache Ant(TM) version 1.10.13 compiled on January 4 2023
+  JVM: 21.0.1 (Homebrew 21.0.1)
+  OS: Mac OS X 14.2.1 aarch64
+  ```
+
+- Changed distributionUrl in `android/gradle/wrapper/gradle-wrapper.properties` to be path of a local zip file I downloaded as it seems its url is blocked in my country!
+
+  `distributionUrl=gradle-8.0.1-all.zip`
+
+- Opened the project in Android directory in Android Studio to let it build with gradle works
