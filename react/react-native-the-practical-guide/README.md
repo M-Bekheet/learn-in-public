@@ -83,3 +83,14 @@ I faced issues while building and running them for Android. Here how I fixed the
   `distributionUrl=gradle-8.0.1-all.zip`
 
 - Opened the project in Android directory in Android Studio to let it build with gradle works
+
+## [Push Notifications App](/react/react-native-the-practical-guide/notifications-app/)
+
+A limited functionality and simple app for pushing local and remote notifications.
+
+Note: This project did not work with me using `npm` so I used `yarn` instead.
+
+New Topics learned while building this app:
+
+- Setting up scheduled notifications.
+- Getting notifications remotely (eg. using FCM).
