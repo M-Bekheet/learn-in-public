@@ -36,6 +36,11 @@ A compilation of resources I have watched/read/learned through that has helped e
 - Java Programming I & II Mooc. [**Done**]
   - [Notes](/java/)
 
+## C++
+
+- C++ Programming & Problem Solving [**In Progress**]
+  - [Notes](/c++/)
+
 ## Design Patterns
 
 - [Learning Design Patterns Book](https://www.patterns.dev/) [**In Progress**]
