@@ -54,6 +54,8 @@ int main()
 {
   /*
    Queue: FIFO(First In First Out) Structure which means that the first elements to be added to the structure will be first.
+   Queue: You can add to the end and only pop from the end
+   Deque: Add to the front or back & remove from the front and back
   */
   queue<int> q;
   q.push(3); // push : adds to the end
