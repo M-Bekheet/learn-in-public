@@ -4,6 +4,15 @@ using namespace std;
 
 /*
 
+  Gotcha:
+  - Vector, Queue, and Deque are fast. Unordered Set is fast too, but not like them.
+  - Any erase/find operation is slow except for erase on average Unordered Set.
+  - Set/Multiset/Map are slow. Don't use them, unless it's for a good reason.
+  - In Practice, Vector is one of the most used DS. Initialize with a capacity if possible. push_back is slow though.
+  - Set & Map are the most used after the Vector.
+  - Set can do what a priority queue does, but not the opposite.
+
+
   ==> Quick Summary for STL
   Queue:
     - [FIFO] Add/Remove from the end only
