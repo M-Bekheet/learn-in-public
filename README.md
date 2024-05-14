@@ -1,6 +1,6 @@
 # learn-in-public
 
-A compilation of resources I have watched/read/learned through that has helped expand my knowledge.
+A compilation of resources I have learned through that have helped expand my knowledge & expertise.
 
 ## TypeScript
 
@@ -24,7 +24,7 @@ A compilation of resources I have watched/read/learned through that has helped e
 
 - [Angular - The Complete Guide (2023 Edition)](https://www.udemy.com/course/the-complete-guide-to-angular-2/) [**Done**]
   - [Notes](/angular)
-  - I skipped (RxJS & Angular Universal) as I already know some about and don't need for now.
+  - I skipped (RxJS & Angular Universal) as I already know some about them and don't need them for now.
 
 ## Algorithms
 
