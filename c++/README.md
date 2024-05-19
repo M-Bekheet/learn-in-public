@@ -16,4 +16,5 @@ Good Problems to review:
   - get_3n_plus_1_length - learned
   - array avg - hard - I just could solve it with an external(global) variable that I was updating with every call
   - array_right_max - couldn't solve it
-- 13th sec(STL) - while my solution might been intuitive, the slides solution were better.
+- 13th sec(STL) - while my solutions might've been intuitive, the slides solutions were better:
+  - OurStack problem - It was kinda tricky
