@@ -17,4 +17,6 @@ Good Problems to review:
   - array avg - hard - I just could solve it with an external(global) variable that I was updating with every call
   - array_right_max - couldn't solve it
 - 13th sec(STL) - while my solutions might've been intuitive, the slides solutions were better:
-  - OurStack problem - It was kinda tricky
+  - Stack problems seem to be tricky, but have simple solutions.
+  - Check homeworks 1 & 2 solutions.
+  - This ad-hoc problem is kinda hard, but worth checking: https://leetcode.com/problems/next-greater-element-ii/description/
