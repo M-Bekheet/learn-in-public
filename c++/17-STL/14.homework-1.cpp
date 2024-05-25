@@ -53,7 +53,7 @@ struct OurStack
   // To do this, you push 7 to the queue to be: {3, 2, 1, 7}
   // And you loop from 0-index to n: take the element from index and push it back in the queue & pop it from the front
   // So the steps will look like this:
-  // {7, 3, 2, 1} => {3, 2, 1, 7} => {2, 1, 7, 3} => {1, 7, 3, 2} => {7, 3, 2, 1}
+  // {3, 2, 1} => {3, 2, 1, 7} => {2, 1, 7, 3} => {1, 7, 3, 2} => {7, 3, 2, 1}
   // You take from the front and move it to the back for n-1 of the original queue size
   void push(int val)
   {
@@ -219,7 +219,10 @@ int main()
   // while (!s.empty())
   //   cout << s.top() << " ", s.pop();
 
-  cout << reverse_num(1010) << endl;
+  int x;
+  cin >> x;
+  cout << "Hey " << x;
+  // cout << reverse_num(1010) << endl;
   // cout << 123 % 10;
   // print_words_by_prefix();
 
