@@ -155,6 +155,7 @@ void print_words_by_prefix_2()
 }
 
 // Using a stack, remove adjacent duplicates from a string. e.g "abbaca" => remove bb => "aaca" => remove "aa" => final result = "ca"
+// *NOTE: A better version of this is implemented next to this function
 string remove_adjacent_duplicates(string s)
 {
   stack<char> st;
@@ -202,6 +203,24 @@ string remove_adjacent_duplicates(string s)
   return final_string;
 }
 
+string remove_adjacent_duplicates_v2(string str)
+{
+  stack<char> s;
+
+  for (auto ch : str)
+  {
+    if (!s.empty() && s.top() == ch)
+      s.pop();
+    else
+      s.push(ch);
+  }
+  str = "";
+  while (!s.empty())
+    str = s.top() + str, s.pop();
+
+  return str;
+}
+
 int main()
 {
   queue<int> q1({3, 5, -1, 4});
@@ -219,13 +238,11 @@ int main()
   // while (!s.empty())
   //   cout << s.top() << " ", s.pop();
 
-  int x;
-  cin >> x;
-  cout << "Hey " << x;
   // cout << reverse_num(1010) << endl;
   // cout << 123 % 10;
   // print_words_by_prefix();
 
-  // cout << remove_adjacent_duplicates("aca") << "\n";
-  cout << "\n";
+  // cout << remove_adjacent_duplicates_v2("aca") << "\n";
+  cout
+      << "\n";
 }
