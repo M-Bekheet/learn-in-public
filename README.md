@@ -28,7 +28,7 @@ A compilation of resources I have learned through that have helped expand my kno
 
 ## Algorithms
 
-- Grokking Algorithms [**90%**]
+- Grokking Algorithms
   - [Notes](/algorithms/grokking-algorithms)
 
 ## Java
