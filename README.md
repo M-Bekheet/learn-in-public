@@ -38,10 +38,10 @@ A compilation of resources I have learned through that have helped expand my kno
 
 ## C++
 
-- C++ Programming & Problem Solving [**In Progress**]
+- C++ Programming & Problem Solving 
   - [Notes](/c++/)
 
 ## Design Patterns
 
-- [Learning Design Patterns Book](https://www.patterns.dev/) [**In Progress**]
+- [Learning Design Patterns Book](https://www.patterns.dev/) 
   - [Notes](/design-patterns/learning-patterns-book)
